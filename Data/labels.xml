@@ -1,0 +1,122 @@
+<root>
+
+	<!-- resource bar labels -->
+	<!-- 60px to the right of icons, 4px below -->
+	<label>
+		<id>l_wood</id>
+		<pos x="65" y="15" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_stone</id>
+		<pos x="225" y="15" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_water</id>
+		<pos x="385" y="15" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_flax</id>
+		<pos x="545" y="15" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_ore</id>
+		<pos x="705" y="15" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_rope</id>
+		<pos x="865" y="15" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_gold</id>
+		<pos x="1025" y="15" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_timber</id>
+		<pos x="65" y="65" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_cobblestone</id>
+		<pos x="225" y="65" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_food</id>
+		<pos x="385" y="65" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_linen</id>
+		<pos x="545" y="65" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_iron</id>
+		<pos x="705" y="65" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_tools</id>
+		<pos x="865" y="65" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	<label>
+		<id>l_cart</id>
+		<pos x="1025" y="65" w="50" h="50" />
+		<fontsize>24</fontsize>
+		<font>arial</font>
+		<button>false</button>
+	</label>
+	
+	
+	
+	<!-- unused text labels -->
+	<label>
+		<id>s_main</id>
+		<pos x="40" y="850" w="100" h="50" />
+		<fontsize>34</fontsize>
+		<font>arial</font>
+		<button>true</button>
+	</label>
+	<label>
+		<id>s_mason</id>
+		<pos x="200" y="850" w="100" h="50" />
+		<fontsize>34</fontsize>
+		<font>arial</font>
+		<button>true</button>
+	</label>
+	
+</root>

@@ -1,0 +1,846 @@
+<root>
+	
+	<!-- backgrounds -->
+	
+	<asset>
+		<id>background</id>
+		<pos x="0" y="0" w="1600" h="900" />
+		<texID>background</texID>
+		<texCoord x="0" y="0" w="1600" h="900" />
+		<click>false</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>overlayup</id>
+		<pos x="0" y="0" w="1600" h="100" />
+		<texID>overlay</texID>
+		<texCoord x="0" y="141" w="1600" h="150" />
+		<click>false</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>overlaydown</id>
+		<pos x="0" y="850" w="1600" h="150" />
+		<texID>overlay</texID>
+		<texCoord x="0" y="104" w="1600" h="110" />
+		<click>false</click>
+		<borders>true</borders>
+	</asset>
+	
+	
+	<!-- village buildings -->
+	
+	<!-- wood -->
+	<asset>
+		<id>b_wood1</id>
+		<pos x="970" y="150" w="80" h="80" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="0" w="200" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_wood2</id>
+		<pos x="970" y="150" w="80" h="80" />
+		<texID>buildings</texID>
+		<texCoord x="200" y="0" w="200" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_wood3</id>
+		<pos x="970" y="150" w="80" h="80" />
+		<texID>buildings</texID>
+		<texCoord x="400" y="0" w="200" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_wood4</id>
+		<pos x="970" y="150" w="80" h="80" />
+		<texID>buildings</texID>
+		<texCoord x="600" y="0" w="200" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- stone -->
+	<asset>
+		<id>b_stone1</id>
+		<pos x="800" y="240" w="110" h="65" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="200" w="280" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_stone2</id>
+		<pos x="800" y="240" w="110" h="65" />
+		<texID>buildings</texID>
+		<texCoord x="280" y="200" w="280" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_stone3</id>
+		<pos x="800" y="240" w="110" h="65" />
+		<texID>buildings</texID>
+		<texCoord x="560" y="200" w="280" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_stone4</id>
+		<pos x="800" y="240" w="110" h="65" />
+		<texID>buildings</texID>
+		<texCoord x="840" y="200" w="280" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- water -->
+	<asset>
+		<id>b_water1</id>
+		<pos x="1450" y="450" w="110" h="65" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="400" w="320" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_water2</id>
+		<pos x="1450" y="450" w="110" h="65" />
+		<texID>buildings</texID>
+		<texCoord x="320" y="400" w="320" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_water3</id>
+		<pos x="1450" y="450" w="110" h="65" />
+		<texID>buildings</texID>
+		<texCoord x="640" y="400" w="320" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_water4</id>
+		<pos x="1450" y="450" w="110" h="65" />
+		<texID>buildings</texID>
+		<texCoord x="960" y="400" w="320" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- flax -->
+	<asset>
+		<id>b_flax1</id>
+		<pos x="1280" y="310" w="130" h="90" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="600" w="250" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_flax2</id>
+		<pos x="1280" y="310" w="130" h="90" />
+		<texID>buildings</texID>
+		<texCoord x="250" y="600" w="250" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_flax3</id>
+		<pos x="1280" y="310" w="130" h="90" />
+		<texID>buildings</texID>
+		<texCoord x="500" y="600" w="250" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_flax4</id>
+		<pos x="1280" y="310" w="130" h="90" />
+		<texID>buildings</texID>
+		<texCoord x="750" y="600" w="250" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- ore -->
+	<asset>
+		<id>b_ore1</id>
+		<pos x="1370" y="110" w="110" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="800" w="220" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_ore2</id>
+		<pos x="1370" y="110" w="110" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="220" y="800" w="220" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_ore3</id>
+		<pos x="1370" y="110" w="110" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="440" y="800" w="220" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_ore4</id>
+		<pos x="1370" y="110" w="110" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="660" y="800" w="220" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- timber -->
+	<asset>
+		<id>b_timber1</id>
+		<pos x="1160" y="190" w="90" h="80" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="1000" w="250" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_timber2</id>
+		<pos x="1160" y="190" w="90" h="80" />
+		<texID>buildings</texID>
+		<texCoord x="250" y="1000" w="250" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_timber3</id>
+		<pos x="1160" y="190" w="90" h="80" />
+		<texID>buildings</texID>
+		<texCoord x="500" y="1000" w="250" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_timber4</id>
+		<pos x="1160" y="190" w="90" h="80" />
+		<texID>buildings</texID>
+		<texCoord x="750" y="1000" w="250" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- cobblestone -->
+	<asset>
+		<id>b_cobblestone1</id>
+		<pos x="960" y="240" w="105" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="1200" w="210" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_cobblestone2</id>
+		<pos x="960" y="240" w="105" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="210" y="1200" w="210" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_cobblestone3</id>
+		<pos x="960" y="240" w="105" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="420" y="1200" w="210" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_cobblestone4</id>
+		<pos x="960" y="240" w="105" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="630" y="1200" w="210" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- food -->
+	<asset>
+		<id>b_food1</id>
+		<pos x="1430" y="250" w="110" h="110" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="1400" w="200" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_food2</id>
+		<pos x="1430" y="250" w="110" h="110" />
+		<texID>buildings</texID>
+		<texCoord x="200" y="1400" w="200" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_food3</id>
+		<pos x="1430" y="250" w="110" h="110" />
+		<texID>buildings</texID>
+		<texCoord x="400" y="1400" w="200" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_food4</id>
+		<pos x="1430" y="250" w="110" h="110" />
+		<texID>buildings</texID>
+		<texCoord x="600" y="1400" w="200" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- linen -->
+	<asset>
+		<id>b_linen1</id>
+		<pos x="780" y="470" w="130" h="110" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="1600" w="220" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_linen2</id>
+		<pos x="780" y="470" w="130" h="110" />
+		<texID>buildings</texID>
+		<texCoord x="220" y="1600" w="220" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_linen3</id>
+		<pos x="780" y="470" w="130" h="110" />
+		<texID>buildings</texID>
+		<texCoord x="440" y="1600" w="220" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_linen4</id>
+		<pos x="780" y="470" w="130" h="110" />
+		<texID>buildings</texID>
+		<texCoord x="660" y="1600" w="220" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- iron -->
+	<asset>
+		<id>b_iron1</id>
+		<pos x="1140" y="400" w="130" h="125" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="1800" w="260" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_iron2</id>
+		<pos x="1140" y="400" w="130" h="125" />
+		<texID>buildings</texID>
+		<texCoord x="260" y="1800" w="260" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_iron3</id>
+		<pos x="1140" y="400" w="130" h="125" />
+		<texID>buildings</texID>
+		<texCoord x="520" y="1800" w="260" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_iron4</id>
+		<pos x="1140" y="400" w="130" h="125" />
+		<texID>buildings</texID>
+		<texCoord x="780" y="1800" w="260" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- rope -->
+	<asset>
+		<id>b_rope1</id>
+		<pos x="1300" y="510" w="160" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="2050" w="320" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_rope2</id>
+		<pos x="1300" y="510" w="160" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="320" y="2050" w="320" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_rope3</id>
+		<pos x="1300" y="510" w="160" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="640" y="2050" w="320" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_rope4</id>
+		<pos x="1300" y="510" w="160" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="960" y="2050" w="320" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- tools -->
+	<asset>
+		<id>b_tools1</id>
+		<pos x="10" y="675" w="200" h="135" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="2250" w="340" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_tools2</id>
+		<pos x="10" y="675" w="200" h="135" />
+		<texID>buildings</texID>
+		<texCoord x="340" y="2250" w="340" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_tools3</id>
+		<pos x="10" y="675" w="200" h="135" />
+		<texID>buildings</texID>
+		<texCoord x="680" y="2250" w="340" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_tools4</id>
+		<pos x="10" y="675" w="200" h="135" />
+		<texID>buildings</texID>
+		<texCoord x="1020" y="2250" w="340" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!--cart -->
+	<asset>
+		<id>b_cart1</id>
+		<pos x="1320" y="670" w="220" h="160" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="2500" w="320" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_cart2</id>
+		<pos x="1320" y="670" w="220" h="160" />
+		<texID>buildings</texID>
+		<texCoord x="320" y="2500" w="320" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_cart3</id>
+		<pos x="1320" y="670" w="220" h="160" />
+		<texID>buildings</texID>
+		<texCoord x="640" y="2500" w="320" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_cart4</id>
+		<pos x="1320" y="670" w="220" h="160" />
+		<texID>buildings</texID>
+		<texCoord x="960" y="2500" w="320" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- mason -->
+	<asset>
+		<id>b_mason1</id>
+		<pos x="560" y="340" w="145" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="2750" w="290" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_mason2</id>
+		<pos x="560" y="340" w="145" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="290" y="2750" w="290" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_mason3</id>
+		<pos x="560" y="340" w="145" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="580" y="2750" w="290" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_mason4</id>
+		<pos x="560" y="340" w="145" h="100" />
+		<texID>buildings</texID>
+		<texCoord x="870" y="2750" w="290" h="200" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- market -->
+	<asset>
+		<id>b_market1</id>
+		<pos x="600" y="600" w="340" h="190" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="2950" w="500" h="275" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_market2</id>
+		<pos x="600" y="600" w="340" h="190" />
+		<texID>buildings</texID>
+		<texCoord x="500" y="2950" w="500" h="275" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_market3</id>
+		<pos x="600" y="600" w="340" h="190" />
+		<texID>buildings</texID>
+		<texCoord x="1000" y="2950" w="500" h="275" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_market4</id>
+		<pos x="600" y="600" w="340" h="190" />
+		<texID>buildings</texID>
+		<texCoord x="1500" y="2950" w="500" h="275" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- warehouse -->
+	<asset>
+		<id>b_warehouse1</id>
+		<pos x="370" y="440" w="190" h="210" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="3225" w="220" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_warehouse2</id>
+		<pos x="370" y="440" w="190" h="210" />
+		<texID>buildings</texID>
+		<texCoord x="220" y="3225" w="220" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_warehouse3</id>
+		<pos x="370" y="440" w="190" h="210" />
+		<texID>buildings</texID>
+		<texCoord x="440" y="3225" w="220" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_warehouse4</id>
+		<pos x="370" y="440" w="190" h="210" />
+		<texID>buildings</texID>
+		<texCoord x="660" y="3225" w="220" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- townhall -->
+	<asset>
+		<id>b_townhall1</id>
+		<pos x="-30" y="400" w="275" h="190" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="3475" w="530" h="350" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_townhall2</id>
+		<pos x="-30" y="400" w="275" h="190" />
+		<texID>buildings</texID>
+		<texCoord x="530" y="3475" w="530" h="350" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_townhall3</id>
+		<pos x="-30" y="400" w="275" h="190" />
+		<texID>buildings</texID>
+		<texCoord x="1060" y="3475" w="530" h="350" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_townhall4</id>
+		<pos x="-30" y="400" w="275" h="190" />
+		<texID>buildings</texID>
+		<texCoord x="1590" y="3475" w="530" h="350" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	<!-- manor -->
+	<asset>
+		<id>b_manor1</id>
+		<pos x="10" y="100" w="180" h="210" />
+		<texID>buildings</texID>
+		<texCoord x="0" y="3825" w="215" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_manor2</id>
+		<pos x="10" y="100" w="180" h="210" />
+		<texID>buildings</texID>
+		<texCoord x="215" y="3825" w="215" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_manor3</id>
+		<pos x="10" y="100" w="180" h="210" />
+		<texID>buildings</texID>
+		<texCoord x="430" y="3825" w="215" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>b_manor4</id>
+		<pos x="10" y="100" w="180" h="210" />
+		<texID>buildings</texID>
+		<texCoord x="645" y="3825" w="215" h="250" />
+		<click>true</click>
+		<borders>false</borders>
+	</asset>
+	
+	
+	<!-- resource icons -->
+	<!-- 160 px apart -->
+	<asset>
+		<id>r_wood</id>
+		<pos x="5" y="1" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="0" y="0" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_stone</id>
+		<pos x="165" y="1" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="100" y="0" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_water</id>
+		<pos x="325" y="1" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="200" y="0" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_flax</id>
+		<pos x="485" y="1" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="300" y="0" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_ore</id>
+		<pos x="645" y="1" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="400" y="0" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_rope</id>
+		<pos x="805" y="1" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="500" y="0" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_gold</id>
+		<pos x="965" y="1" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="600" y="0" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_timber</id>
+		<pos x="5" y="51" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="0" y="100" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_cobblestone</id>
+		<pos x="165" y="51" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="100" y="100" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_food</id>
+		<pos x="325" y="51" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="200" y="100" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_linen</id>
+		<pos x="485" y="51" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="300" y="100" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_iron</id>
+		<pos x="645" y="51" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="400" y="100" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_tools</id>
+		<pos x="805" y="51" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="500" y="100" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	<asset>
+		<id>r_cart</id>
+		<pos x="965" y="51" w="50" h="50" />
+		<texID>resources</texID>
+		<texCoord x="600" y="100" w="100" h="100" />
+		<click>false</click>
+		<borders>false</borders>
+	</asset>
+	
+	
+	
+	
+	
+	<!-- buttons -->
+	<asset>
+		<id>s_village</id>
+		<pos x="10" y="840" w="150" h="60" />
+		<texID>sbuttons</texID>
+		<texCoord x="0" y="0" w="300" h="120" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>s_mason</id>
+		<pos x="280" y="840" w="150" h="60" />
+		<texID>sbuttons</texID>
+		<texCoord x="300" y="0" w="300" h="120" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>s_market</id>
+		<pos x="570" y="840" w="150" h="60" />
+		<texID>sbuttons</texID>
+		<texCoord x="600" y="0" w="300" h="120" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>s_townhall</id>
+		<pos x="860" y="840" w="150" h="60" />
+		<texID>sbuttons</texID>
+		<texCoord x="900" y="0" w="300" h="120" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>s_warehouse</id>
+		<pos x="1150" y="840" w="150" h="60" />
+		<texID>sbuttons</texID>
+		<texCoord x="1200" y="0" w="300" h="120" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>s_manor</id>
+		<pos x="1440" y="840" w="150" h="60" />
+		<texID>sbuttons</texID>
+		<texCoord x="1500" y="0" w="300" h="120" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>no</id>
+		<pos x="0" y="0" w="120" h="120" />
+		<texID>sbuttons</texID>
+		<texCoord x="1800" y="0" w="120" h="120" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>yes</id>
+		<pos x="0" y="0" w="120" h="120" />
+		<texID>sbuttons</texID>
+		<texCoord x="1920" y="0" w="120" h="120" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>plus</id>
+		<pos x="0" y="0" w="60" h="60" />
+		<texID>sbuttons</texID>
+		<texCoord x="2060" y="0" w="60" h="60" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+	<asset>
+		<id>minus</id>
+		<pos x="0" y="0" w="150" h="60" />
+		<texID>sbuttons</texID>
+		<texCoord x="2060" y="61" w="60" h="60" />
+		<click>true</click>
+		<borders>true</borders>
+	</asset>
+</root>
